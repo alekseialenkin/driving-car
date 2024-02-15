@@ -27,6 +27,7 @@ class GameTest {
     @Test
     public void outOfField() {
         int[] result = Game.makeTurn(Util.makeNewField(Util.readFile(THIRD_FILE_NAME)));
+        Assertions.assertArrayEquals(THIRD_TEST_RESULT, result);
         printResult(result);
     }
 }
