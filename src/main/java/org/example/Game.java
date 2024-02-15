@@ -7,22 +7,22 @@ public class Game {
 
     public static void move(Field field) {
         switch (direction) {
-            case 0:
+            case 0: //север
                 if (y > 0) {
                     y--;
                 }
                 break;
-            case 1:
+            case 1: //восток
                 if (x < field.getLength() - 1) {
                     x++;
                 }
                 break;
-            case 2:
+            case 2: //юг
                 if (y < field.getHeight() - 1) {
                     y++;
                 }
                 break;
-            case 3:
+            case 3: //запад
                 if (x > 0) {
                     x--;
                 }

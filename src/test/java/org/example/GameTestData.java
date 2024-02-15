@@ -33,7 +33,8 @@ public class GameTestData {
             throw new RuntimeException(e);
         }
     }
-    public static void printResult(int [] result){
+
+    public static void printResult(int[] result) {
         System.out.println("Координата х = " + result[0] + " ,координата у = " + result[1]);
     }
 }
